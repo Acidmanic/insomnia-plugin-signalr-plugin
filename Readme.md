@@ -40,7 +40,16 @@ Then you need to choose the _Json_ body type for your request so that you can wr
 
 ✅ You can use template tags in request body, for example you can create another request to do the authorization and then pick the authorization token from it and use in it in the request.
 
+__Example:__
 
+```json
+{
+	"lastMessageOnly":true,
+	"url":"http://localhost:8080/hub/v1/user-updates",
+	"method":"profile-updates",
+	"authorizationToken":"some-authorization-token"
+}
+```
 
 
 How to install
