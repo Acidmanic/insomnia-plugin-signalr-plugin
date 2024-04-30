@@ -1,0 +1,28 @@
+{
+  "name": "insomania-plugin-signalr-client",
+  "version": "1.0.0",
+  "description": "Signal-R Client plugin For Insomnia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mani Moayedi",
+  "license": "MIT",
+  "insomnia": {
+    "name": "signalr-client",
+    "displayName": "Signal-R Client",
+    "description": "Signal-R Client plugin For Insomnia",
+    "images": {
+      "icon": "icon.svg",
+      "cover": "cover.svg"
+    },
+    "publisher": {
+      "name": "Mani Moayedi",
+      "icon": "https://avatars.githubusercontent.com/u/18609123?v=4"
+    },
+    "unlisted": false
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^8.0.0"
+  }
+}
